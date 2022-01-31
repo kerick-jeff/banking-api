@@ -22,7 +22,7 @@ While modern banks have evolved to serve a plethora of functions, at their core,
 - All endpoints should only be accessible if an API key is passed as a header.
 - All role-based endpoints should require authentication.
 - Write tests for your business logic.
-- Provide a documentation that says what endpoints are available and the kind of parameters they expect.
+- Provide a documentation (published with Postman) that says what endpoints are available and the kind of parameters they expect.
 - You are expected to design all required models and routes for your API.
 
 ## Evaluation Criteria
