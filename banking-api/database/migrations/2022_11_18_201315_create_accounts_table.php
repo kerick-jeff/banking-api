@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('accounts', function (Blueprint $table) {
             $table->id();
-            $table->integer('account_number')->unique()->primary();
+            $table->string('account_num')->unique();
             $table->string('type');
             $table->foreignId('customer_id')->constrained('customers');
             $table->decimal('balance', 8, 2);

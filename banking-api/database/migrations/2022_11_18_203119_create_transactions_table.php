@@ -15,10 +15,9 @@ return new class extends Migration
     {
         Schema::create('transactions', function (Blueprint $table) {
             $table->id();
-            $table->integer('transaction_id');
             $table->string('transaction_type');
             $table->foreignId('account_id')->constrained('accounts');
-            $table->foreignId('customer_id')->constrained('customers');
+            $table->foreignId('branch_id')->constrained('branches');
             $table->decimal('amount', 8, 2);
             $table->timestamps();
         });
