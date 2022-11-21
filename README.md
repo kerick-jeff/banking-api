@@ -32,6 +32,6 @@ While modern banks have evolved to serve a plethora of functions, at their core,
 - Correctness: does the functionality act in sensible, thought-out ways?
 - Maintainability: is it written in a clean, maintainable way?
 - Testing: is the system adequately tested?
-- Documentation: is the API well-documented?
+- Documentation: is the API well-documented? Host it via Postman.
 
 All the best and happy coding!
